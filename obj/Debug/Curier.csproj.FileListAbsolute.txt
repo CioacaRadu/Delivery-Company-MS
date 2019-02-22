@@ -1,0 +1,17 @@
+C:\Users\Radu\source\repos\Curier\Curier\bin\Debug\Curier.exe.config
+C:\Users\Radu\source\repos\Curier\Curier\bin\Debug\Curier.exe
+C:\Users\Radu\source\repos\Curier\Curier\bin\Debug\Curier.pdb
+C:\Users\Radu\source\repos\Curier\Curier\obj\Debug\Curier.csprojResolveAssemblyReference.cache
+C:\Users\Radu\source\repos\Curier\Curier\obj\Debug\Curier.Form1.resources
+C:\Users\Radu\source\repos\Curier\Curier\obj\Debug\Curier.Properties.Resources.resources
+C:\Users\Radu\source\repos\Curier\Curier\obj\Debug\Curier.csproj.GenerateResource.Cache
+C:\Users\Radu\source\repos\Curier\Curier\obj\Debug\Curier.csproj.CoreCompileInputs.cache
+C:\Users\Radu\source\repos\Curier\Curier\obj\Debug\Curier.exe
+C:\Users\Radu\source\repos\Curier\Curier\obj\Debug\Curier.pdb
+C:\Users\Radu\source\repos\Curier\Curier\obj\Debug\Curier.ClientLogForm.resources
+C:\Users\Radu\source\repos\Curier\Curier\obj\Debug\Curier.CurierLogForm.resources
+C:\Users\Radu\source\repos\Curier\Curier\obj\Debug\Curier.ClientMenuForm.resources
+C:\Users\Radu\source\repos\Curier\Curier\obj\Debug\Curier.ClientMenuModifyForm.resources
+C:\Users\Radu\source\repos\Curier\Curier\obj\Debug\Curier.CurierMenuForm.resources
+C:\Users\Radu\source\repos\Curier\Curier\obj\Debug\Curier.ClientAddCommand.resources
+C:\Users\Radu\source\repos\Curier\Curier\obj\Debug\Curier.StatisticiForm.resources

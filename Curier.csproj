@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8D99C668-35DB-4BE2-A2A7-254814065488}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Curier</RootNamespace>
+    <AssemblyName>Curier</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Client.cs" />
+    <Compile Include="ClientAddCommand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientAddCommand.Designer.cs">
+      <DependentUpon>ClientAddCommand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientController.cs" />
+    <Compile Include="Comanda.cs" />
+    <Compile Include="ClientLogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientLogForm.Designer.cs">
+      <DependentUpon>ClientLogForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientMenuForm.Designer.cs">
+      <DependentUpon>ClientMenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComandaController.cs" />
+    <Compile Include="CurierLogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CurierLogForm.Designer.cs">
+      <DependentUpon>CurierLogForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Curierman.cs" />
+    <Compile Include="CuriermanController.cs" />
+    <Compile Include="CurierMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CurierMenuForm.Designer.cs">
+      <DependentUpon>CurierMenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeliveryController.cs" />
+    <Compile Include="Depozit.cs" />
+    <Compile Include="DepozitController.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientMenuModifyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientMenuModifyForm.Designer.cs">
+      <DependentUpon>ClientMenuModifyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalUsers.cs" />
+    <Compile Include="LivrareDepozit.cs" />
+    <Compile Include="Masina.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlConnectionDB.cs" />
+    <Compile Include="StatisticiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatisticiForm.Designer.cs">
+      <DependentUpon>StatisticiForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatsController.cs" />
+    <EmbeddedResource Include="ClientAddCommand.resx">
+      <DependentUpon>ClientAddCommand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientLogForm.resx">
+      <DependentUpon>ClientLogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientMenuForm.resx">
+      <DependentUpon>ClientMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CurierLogForm.resx">
+      <DependentUpon>CurierLogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CurierMenuForm.resx">
+      <DependentUpon>CurierMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientMenuModifyForm.resx">
+      <DependentUpon>ClientMenuModifyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="StatisticiForm.resx">
+      <DependentUpon>StatisticiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
